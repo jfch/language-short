@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript"></script>
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>JavaScript Error</h1>
+
+<input id="age" type="text">
+<button type="button" onclick="click1()">input age</button>
+<p id="text1"></p>
+
+<script type="text/javascript">
+function click1() {
+    var showText, x;
+    showText = document.getElementById("text1");
+    showText.innerHTML = "";
+    x = document.getElementById("age").value;
+    try { 
+        x = Number(x);
+        if(x < 18)    throw "too young, not allowed to apply license.";
+        if(x > 70)   throw "too old, not allowed to apply license.";
+    }
+    catch(err) {
+    	showText.innerHTML = "You are " + err;
+    }
+}
+
+</script>
+
+</body>
+</html>

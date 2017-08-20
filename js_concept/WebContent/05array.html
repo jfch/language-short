@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript"></script>
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>JavaScript Arrays</h1>
+
+<button onclick="click1()">Show Array</button>
+<button onclick="click2()">Add Item</button>
+<button onclick="click3()">Show Length</button>
+
+<p id="text"> </p>
+<p id="textNum"> </p>
+
+<script type="text/javascript">
+var phone = ["apple", "iphone", "5s", "black"];
+function click1(){
+    document.getElementById("text").innerHTML = phone;
+}
+function click2(){
+	phone.push("2 years old");              
+    document.getElementById("text").innerHTML = phone;
+}
+function click3(){
+    document.getElementById("textNum").innerHTML = phone.length;
+}
+</script>
+
+
+
+</body>
+</html>

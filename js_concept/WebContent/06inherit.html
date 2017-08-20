@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript"></script>
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>JavaScript Inheritance</h1>
+
+<p id="text1"> </p>
+<p id="text2"> </p>
+
+<script type="text/javascript">
+//Define the Pad constructor
+var Pad = function(Name) {
+  this.Name = Name;
+};
+Pad.prototype.sayHello = function(){
+	document.getElementById("text1").innerHTML = "Hello, I'm " + this.Name;
+};
+Pad.prototype.sayBye = function(){
+	document.getElementById("text2").innerHTML ="BYE";
+};
+
+function Ipad(Name, subject) {
+  Pad.call(this, Name);
+  this.subject = subject;
+}
+// Create a Ipad object that inherits from Pad prototype.
+Ipad.prototype = Object.create(Pad.prototype);  
+Ipad.prototype.constructor = Ipad;
+Ipad.prototype.sayHello = function(){
+	document.getElementById("text1").innerHTML ="Hello, I'm " + this.Name + ". I'm attually "
+              + this.subject + ".";
+};
+
+var Ipad1 = new Ipad("ipad", "New Pad Air");
+Ipad1.sayHello(); 
+Ipad1.sayBye(); 
+
+
+</script>
+
+
+
+</body>
+</html>

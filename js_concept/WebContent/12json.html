@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript"></script>
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>JavaScript JSON</h1>
+
+<p id="text1"> </p>
+
+<script type="text/javascript">
+var sports = '{"sports":[' +
+'{"Name":"Basketball","Rank":"1" },' +
+'{"Name":"Football","Rank":"2" },' +
+'{"Name":"Swimming","Rank":"3" }]}';
+obj = JSON.parse(sports);
+document.getElementById("text1").innerHTML = obj.sports[0].Name + " " + obj.sports[0].Rank;
+</script>
+
+</body>
+</html>

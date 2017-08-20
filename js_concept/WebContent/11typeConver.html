@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript"></script>
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>JavaScript Type Conversion</h1>
+<p id="text1"> </p>
+<p id="text2"> </p>
+<p id="text3"> </p>
+<p id="text4"> </p>
+<p id="text5"> </p>
+<p id="text6"> </p>
+<p id="text7"> </p>
+<p id="text8"> </p>
+<p id="text9"> </p>
+
+<script type="text/javascript">
+document.getElementById("text1").innerHTML=false.toString()     
+document.getElementById("text2").innerHTML=true.toString()     
+document.getElementById("text3").innerHTML=Number(false)    
+document.getElementById("text4").innerHTML=true   
+document.getElementById("text5").innerHTML=8 + null    
+document.getElementById("text6").innerHTML="8" + null  
+document.getElementById("text7").innerHTML="6" + 5     
+document.getElementById("text8").innerHTML="6" - 5    
+document.getElementById("text9").innerHTML="6" * "5"   
+</script>
+
+</body>
+</html>

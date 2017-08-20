@@ -1,0 +1,90 @@
+---JS---
+01 variables: 
+02 objects: creating an object of my cellphone
+03 functions: creating a function which can multiply two numbers
+
+04 events: the button can tell what you are doing by using event
+05 arrays: add and detail some info of my phone  by using array and tell how many things you know about my phone
+06 inheritance:
+
+Conditions: tell me I am old or not, say not younger than 30 is old
+Regular Expressions: change the assignment due date in the text from Feb.23 to Feb.22 using RegExp
+Strict mode: check the difference of printing out variable when using the javascript under strict mode
+
+Errors:input the age to apply the driver license, too old or too young throw error
+Type Conversions: create some test cases of conversion from string to number, number to string and print it, to see how type conversion work
+JSON: Create a JASON array of my favarite sports list, and print my most favorite one on the screen
+
+---
+01 variables: Defined as containers for storing data values.
+02 objects: Used to describe physical instance in life by giving some properties. For example, a cell phone is an object.It has properties like brand, model, weight and color.
+03 functions: Defined as a block of code designed to perform a particular task. It is executed when something called.
+
+04 events: Defined to things that happen to HTML elements, while JS can "react" on these events.
+05 arrays: Defined to store multiple values in a single variable.
+06 inheritance: In object-oriented programming, defined as inheritance is when an object or class is based on another object or class, using the same implementation specifying implementation to maintain the same behavior.
+
+
+Conditions: Conditional statements will take different actions accoring to different situations by using if .. else et al.
+Regular Expressions: It is a sequence of characters that forms a search pattern, which can be used for text search and text replace operations.
+Strict mode: It is new in JavaScript 1.8.5 (ECMAScript version 5). JavaScript code should be executed strictly under this programing mode. With strict mode, we can not, ie. use undeclared variables.
+
+
+Errors: Errors are equal to the try to catch and throw grammer. The try statement test a block of code for errors. The catch statement handle the error. The throw statement create custom errors.
+
+Type Conversions: Javascript convert types among Number, String, Boolean, et al. 
+
+
+JSON stands for JavaScript Object Notation, it is a format for storing and transporting data, and often used when data is sent from a server to a web page.
+
+
+---JAVA---
+
+03 Arrays 数组 
+It is a kind of data structure, which stores a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data.
+Create, initialize and process a sample arrays containing some digit numbers.
+
+01 Queues 队列
+It is a kind of data structure. In Java, it is an interface, which is a subtype of the Collection interface. 
+Create and process a sample queue containing string of "CMPE class 273"
+
+02 Stacks 栈
+A Stack is a data structure where you add elements to the "top" of the stack, and also remove elements from the top again.In Java, it is an class found as java.util.Stack class.
+Create and process a sample stack containing string of "CMPE class 273"
+
+04 Interfaces
+An interface is a reference type in Java, and it is a collection of abstract methods. A class implements an interface, thereby inheriting the abstract methods of the interface.
+give a sample class which implements defined interface reviewer.
+
+05 Collections:
+A collection, sometimes called a container, is simply an object that groups multiple elements into a single unit. Collections are used to store, retrieve, manipulate, and communicate aggregate data. Typically, they represent data items that form a natural group, such as a poker hand (a collection of cards), a mail folder (a collection of letters), or a telephone directory (a mapping of names to phone numbers).
+give various class examples to show implementations of a collection interface method, for example, add().
+
+06 Generics
+Java Generic methods and generic classes enable programmers to specify, with a single method declaration, a set of related methods or, with a single class declaration, a set of related types, respectively.Using Java Generic concept, we might write a generic method for sorting an array of objects
+give a Java Generics method print which can handle different input types
+
+
+07 Multithreading
+A multi threaded program contains two or more small programs that can run concurrently and each one can handle different task at the same time making optimal use of the available resources specially multiple CPUs.
+
+When we play some games in the phone or pad,we need to use both hands to control handle at the same time. So design a thread representing task one to keep pressing the button on the left and another thread representing pressing the button on the right. Create the two running threads, and show the running time since start. After 5 seconds stop task one,and after 10 seconds stop task two, to finish the concurrent running situation. 
+
+---HTML5---
+Local Storage ：It stores data with no expiration date, unlike session storage, which stores data for one session. The data will be available even when the browser/ browsing tab is closed or reopened.It is a simple client side database that allows the users to persist data in the form of key pairs or value pairs. It has a fairly simple API to write data into the local storage, it can store up to 10MB of data per domain. Unlike cookies, the data stored are not included with every HTTP request.
+
+Media (Video and Audio) : It is used to play video and audio on the website
+
+download a sample video file and audio file and put it on the web
+
+Input Type (make use of different input property options in HTML5 like  patterns, autofocus, required, email etc. Place types you want, mention the properties used in your Introduction to Topic section) : 
+
+register your information on website for class 273
+
+Geolocation : The HTML Geolocation API is used to locate a user's position
+ 
+
+
+
+
+

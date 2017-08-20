@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript"></script>
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>JavaScript Regular Express</h1>
+
+<p id="text1">Please finish the task by due date Feb.23. If you did not finished the task by that date, it will be degraded! </p>
+
+<button onclick="changeDate()">Change Date</button>
+
+<script type="text/javascript">
+function changeDate() {
+    var str1 = document.getElementById("text1").innerHTML; 
+    var str2 = str1.replace(/Feb.23/,"Feb.22");
+    document.getElementById("text1").innerHTML = str2;
+} 
+</script>
+
+</body>
+</html>
